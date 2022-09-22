@@ -37,8 +37,8 @@ const Hero  =()=> {
                 </p>
             </div>
 
-            <div className=''>
-                <img src={robot} alt="billing" className={`z-[5] relative w-[100%] h-[100%]`} />
+            <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+                <img src={robot} alt="billing" className={` z-[9] relative w-[100%] h-[100%]`} />
                 <div className="z-[0] h-[40%] w-[35%] absolute top-0 pink__gradient" />
                 <div className="z-[1] h-[80%] w-[80%] absolute bottom-40 rounded-full  white__gradient" />
                 <div className="z-[0] h-[50%] w-[50%] absolute bottom-20 right-20 blue__gradient" />
