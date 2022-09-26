@@ -21,7 +21,7 @@ function Testimonials() {
                 }
             </div>
 
-            <div/>
+            <div className='absolute blue__gradient rounded-full w-[60%] h-[60%] -right-[50%] z-[0]' />
         </section>
     )
 }
