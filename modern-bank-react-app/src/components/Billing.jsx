@@ -4,7 +4,7 @@ import {apple, bill, google} from  "../assets"
 
 const Billing =()=> {
     return (
-        <section className={`${layout.sectionReverse} flex-1 flex flex-row p-6`}>
+        <section id="product" className={`${layout.sectionReverse} flex-1 flex flex-row p-6`}>
             <div className={`${layout.sectionImgReverse}`}>
                  <img src={bill} className={`w-[100%] h-[100%]`} />
             </div>
