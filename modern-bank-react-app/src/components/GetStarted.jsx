@@ -4,7 +4,7 @@ import styles from '../style'
 
 function GetStarted() {
     return (
-        <div className={`${styles.flexStart} w-[140px] h-[140px] bg-blue-gradient rounded-full p-[2px]`}>
+        <div className={`${styles.flexStart} w-[140px] h-[140px] bg-blue-gradient rounded-full p-[2px] cursor-pointer`}>
             <div className={`${styles.flexCenter} flex-col w-[140px] h-[140px] bg-primary rounded-full h-[100%] w-[100%]`}>
                 <div className={`${styles.flexStart} flex-row`}>
                     <p className={`font-poppins font-medium text-gradient text-[18px] leading-[23px]`}>
